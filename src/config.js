@@ -1,4 +1,6 @@
 const dev = {
+  STRIPE_KEY: pk_test_YuQ1Hpl5RAASqUVs2yoPAl5A,
+  
   s3: {
     REGION: "YOUR_DEV_S3_UPLOADS_BUCKET_REGION",
     BUCKET: "YOUR_DEV_S3_UPLOADS_BUCKET_NAME"
@@ -16,6 +18,8 @@ const dev = {
 };
 
 const prod = {
+  STRIPE_KEY: pk_test_YuQ1Hpl5RAASqUVs2yoPAl5A,
+  
   s3: {
     REGION: "YOUR_PROD_S3_UPLOADS_BUCKET_REGION",
     BUCKET: "YOUR_PROD_S3_UPLOADS_BUCKET_NAME"
