@@ -1,5 +1,5 @@
 const dev = {
-  STRIPE_KEY: pk_test_YuQ1Hpl5RAASqUVs2yoPAl5A,
+  STRIPE_KEY: "pk_test_YuQ1Hpl5RAASqUVs2yoPAl5A",
   
   s3: {
     REGION: "YOUR_DEV_S3_UPLOADS_BUCKET_REGION",
@@ -18,7 +18,7 @@ const dev = {
 };
 
 const prod = {
-  STRIPE_KEY: pk_test_YuQ1Hpl5RAASqUVs2yoPAl5A,
+  STRIPE_KEY: "pk_test_YuQ1Hpl5RAASqUVs2yoPAl5A",
   
   s3: {
     REGION: "YOUR_PROD_S3_UPLOADS_BUCKET_REGION",
